@@ -257,22 +257,22 @@ body {
 @media screen and (max-width: 600px) {
 
     .happy-birthday-text {
-        font-size: 2.5rem;
-        top: 10%;
+        font-size: 2.2rem;
+        top: 12%;
         width: 100%;
         text-align: center;
-        line-height: 1.2;
     }
 
     .name-text {
-        font-size: 1.8rem;
-        top: 28%;
+        font-size: 1.5rem;
+        top: 38%;
     }
 
     .cake-container {
-        transform: scale(0.8);
-        margin-top: 80px;
+        transform: scale(0.7);
+        margin-top: 120px;
     }
 }
+
 
 
