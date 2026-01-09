@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Animated Birthday Cake Surprise!</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Cake</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="wrapper">
-    <div class="cake-area" id="cakeArea">
-      <div class="plate"></div>
-      <div class="layer layer-bottom"></div>
-      <div class="layer layer-middle"></div>
-      <div class="layer layer-top"></div>
-      <div class="icing"></div>
-      <div class="candles">
-        <div class="candle"><div class="flame"></div></div>
-        <div class="candle"><div class="flame"></div></div>
-        <div class="candle"><div class="flame"></div></div>
-      </div>
+
+    <div class="happy-birthday-text" id="birthdayMessage">HAPPY BIRTHDAY!</div>
+    <div class="name-text" id="nameMessage">AnushkAAA</div>
+
+    <div class="cake-container" id="cake" onclick="blowCandles()">
+        <div class="cake-layer layer-bottom"></div>
+        <div class="cake-layer layer-middle"></div>
+        <div class="cake-layer layer-top">
+            <div class="icing"></div>
+            <div class="drip"></div>
+            <div class="drip"></div>
+            <div class="drip"></div>
+            <div class="drip"></div>
+            <div class="drip"></div>
+        </div>
+
+        <div class="candle candle-1">
+            <div class="flame" id="flame1"></div>
+        </div>
+        <div class="candle candle-2">
+            <div class="flame" id="flame2"></div>
+        </div>
+        <div class="candle candle-3">
+            <div class="flame" id="flame3"></div>
+        </div>
     </div>
-    <div class="greeting-section">
-      <h1 class="greeting">Happy Birthday!</h1>
-      <div class="name-center"><b>AnushkAAA(Bimtch😁🥱)</b></div>
-    </div>
-  </div>
-  <canvas id="confettiCanvas"></canvas>
-  <script src="script.js"></script>
+
+    <p class="instruction" id="instruction">Make a wish and click the cake!</p>
+
+    <script src="script.js"></script>
 </body>
 </html>
 
